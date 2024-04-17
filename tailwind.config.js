@@ -10,7 +10,7 @@ module.exports = {
         dark_black: '#151515',
         neon_green: '#4EE1A0',
         dark_gray: '#242424',
-        cream: '#D9D9D9',
+        grey: '#D9D9D9',
         pure_white:'#FFFFFF'
       },
     },
