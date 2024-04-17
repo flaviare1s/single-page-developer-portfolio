@@ -184,15 +184,22 @@
         I would love to hear about your project and how I could help. Please
         fill in the form, and I’ll get back to you as soon as possible.
       </p>
-      <form>
-        <input type="text" name="name" id="name" placeholder="Name" required>
-        <input type="email" name="email" id="email" placeholder="Email" required>
-        <textarea name="text" id="text" cols="30" rows="10" placeholder="Message"></textarea>
-        <button class="uppercase font-bold text-center leading-[26px] tracking-[2.29px] border-b-2 border-neon_green hover:text-neon_green pb-2.5" id="btnSubmit" type="submit">Send message</button>
+      <form class="px-4">
+        <input class="bg-dark_gray placeholder:uppercase border-b-2 py-4 px-6 w-full" type="text" name="name" id="name" placeholder="Name" required>
+        <input class="bg-dark_gray placeholder:uppercase border-b-2 py-4 px-6 w-full" type="email" name="email" id="email" placeholder="Email" required>
+        <span id="errorBox"></span>
+        <textarea class="bg-dark_gray placeholder:uppercase border-b-2 py-4 px-6 w-full" name="text" id="text" cols="30" rows="5" placeholder="Message"></textarea>
+        <div class="flex justify-end mb-[87px]">
+          <button class="uppercase font-bold leading-[26px] tracking-[2.29px] border-b-2 border-neon_green hover:text-neon_green pt-8 pb-2.5" id="btnSubmit" type="submit">Send message</button>
+        </div>
       </form>
     </section>
+
+    <div class="relative">
+      <img class="absolute left-[-50%] top-[-210px] z-10" src="../src/assets/images/pattern-rings.svg" alt="Pattern Rings">
+    </div>
     
-    <div class="mb-[60px] w-[47%] flex flex-col justify-center items-center m-auto">
+    <div class="mb-[60px] flex flex-col justify-center items-center m-auto mt-10 border-t-2 px-4">
       <h1 class="font-bold text-2xl px-3 py-5">adamkeyes</h1>
       <div class="flex justify-between gap-6 items-center w-full px-2.5">
         <img src="../src/assets/images/icon-github.svg" alt="Icon GitHub">

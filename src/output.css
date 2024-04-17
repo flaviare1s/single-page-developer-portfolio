@@ -594,6 +594,34 @@ video {
   top: -50px;
 }
 
+.top-\[-60px\] {
+  top: -60px;
+}
+
+.top-\[-80px\] {
+  top: -80px;
+}
+
+.top-\[-100px\] {
+  top: -100px;
+}
+
+.top-\[-120px\] {
+  top: -120px;
+}
+
+.top-\[-200px\] {
+  top: -200px;
+}
+
+.top-\[-220px\] {
+  top: -220px;
+}
+
+.top-\[-210px\] {
+  top: -210px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -609,6 +637,11 @@ video {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-\[60px\] {
@@ -629,6 +662,22 @@ video {
 
 .mt-\[90px\] {
   margin-top: 90px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[67px\] {
+  margin-bottom: 67px;
+}
+
+.mb-\[87px\] {
+  margin-bottom: 87px;
 }
 
 .flex {
@@ -656,12 +705,20 @@ video {
   flex-direction: column;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -688,6 +745,10 @@ video {
   overflow-x: hidden;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -698,6 +759,10 @@ video {
 
 .border-t-2 {
   border-top-width: 2px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-neon_green {
@@ -738,6 +803,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-10 {
@@ -784,8 +859,16 @@ video {
   padding-bottom: 50px;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-Space_Grotesk {
@@ -854,6 +937,14 @@ video {
 .text-grey {
   --tw-text-opacity: 1;
   color: rgb(217 217 217 / var(--tw-text-opacity));
+}
+
+.placeholder\:uppercase::-moz-placeholder {
+  text-transform: uppercase;
+}
+
+.placeholder\:uppercase::placeholder {
+  text-transform: uppercase;
 }
 
 .hover\:text-neon_green:hover {
