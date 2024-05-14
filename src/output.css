@@ -979,9 +979,23 @@ video {
     border-color: rgb(220 38 38 / var(--tw-border-opacity));
   }
 
+  .md\:border-b-transparent {
+    border-bottom-color: transparent;
+  }
+
   .md\:px-\[30px\] {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .md\:px-\[1\] {
+    padding-left: 1;
+    padding-right: 1;
+  }
+
+  .md\:px-\[160px\] {
+    padding-left: 160px;
+    padding-right: 160px;
   }
 }
 
@@ -992,6 +1006,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:px-\[165px\] {
