@@ -16,5 +16,5 @@
 }
 
 .image:hover .overlay {
-  display: block;
+  display: flex;
 }
