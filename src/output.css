@@ -1115,6 +1115,10 @@ video {
     row-gap: 52px;
   }
 
+  .md\:gap-y-\[60px\] {
+    row-gap: 60px;
+  }
+
   .md\:border-b-transparent {
     border-bottom-color: transparent;
   }
@@ -1281,6 +1285,10 @@ video {
 
   .lg\:gap-y-\[58px\] {
     row-gap: 58px;
+  }
+
+  .lg\:gap-y-\[70px\] {
+    row-gap: 70px;
   }
 
   .lg\:px-0 {
