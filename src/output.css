@@ -1136,6 +1136,14 @@ video {
     margin-top: 2.5rem;
   }
 
+  .md\:mb-\[px\] {
+    margin-bottom: px;
+  }
+
+  .md\:mb-\[66px\] {
+    margin-bottom: 66px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1259,12 +1267,76 @@ video {
     margin-top: -80px;
   }
 
+  .lg\:mr-\[\] {
+    margin-right: ;
+  }
+
+  .lg\:mr-\[165px\] {
+    margin-right: 165px;
+  }
+
+  .lg\:mr-\[265px\] {
+    margin-right: 265px;
+  }
+
+  .lg\:mr-\[355px\] {
+    margin-right: 355px;
+  }
+
+  .lg\:mr-\[35px\] {
+    margin-right: 35px;
+  }
+
+  .lg\:mr-\[3px\] {
+    margin-right: 3px;
+  }
+
+  .lg\:mr-\[px\] {
+    margin-right: px;
+  }
+
+  .lg\:mr-\[399px\] {
+    margin-right: 399px;
+  }
+
+  .lg\:mr-\[255px\] {
+    margin-right: 255px;
+  }
+
+  .lg\:mr-\[155px\] {
+    margin-right: 155px;
+  }
+
+  .lg\:mr-\[135px\] {
+    margin-right: 135px;
+  }
+
+  .lg\:mr-\[-80px\] {
+    margin-right: -80px;
+  }
+
   .lg\:block {
     display: block;
   }
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[60\] {
+    width: 60;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
   }
 
   .lg\:grid-cols-3 {
@@ -1274,6 +1346,11 @@ video {
   .lg\:px-\[165px\] {
     padding-left: 165px;
     padding-right: 165px;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:text-\[88px\] {
