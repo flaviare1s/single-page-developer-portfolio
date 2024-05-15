@@ -1,8 +1,7 @@
-input#name.active {
+.active-green {
   border-bottom: 2px solid #4EE1A0;
 }
 
-input#email.active {
+.active-red {
   border-bottom: 2px solid #FF6F5B;
 }
-
