@@ -1116,6 +1116,18 @@ video {
     padding-top: 90px;
   }
 
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pt-\[52px\] {
+    padding-top: 52px;
+  }
+
+  .md\:pb-\[100px\] {
+    padding-bottom: 100px;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1421,6 +1433,18 @@ video {
 
   .lg\:pt-\[127px\] {
     padding-top: 127px;
+  }
+
+  .lg\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .lg\:pt-\[72px\] {
+    padding-top: 72px;
+  }
+
+  .lg\:pb-\[139px\] {
+    padding-bottom: 139px;
   }
 
   .lg\:text-left {
