@@ -1,0 +1,1 @@
+const errorBox = document.querySelector('#errorBox')

@@ -1,3 +1,8 @@
-.fill-hover:hover {
-    fill: #4EE1A0; 
-  }
+input#name.active {
+  border-bottom: 2px solid #4EE1A0;
+}
+
+input#email.active {
+  border-bottom: 2px solid #FF6F5B;
+}
+
