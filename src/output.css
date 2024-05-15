@@ -1235,6 +1235,10 @@ video {
     margin-top: 105px;
   }
 
+  .lg\:mt-\[140px\] {
+    margin-top: 140px;
+  }
+
   .lg\:block {
     display: block;
   }
