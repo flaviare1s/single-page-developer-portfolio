@@ -1152,6 +1152,10 @@ video {
     text-align: left;
   }
 
+  .md\:text-justify {
+    text-align: justify;
+  }
+
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
