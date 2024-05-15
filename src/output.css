@@ -1136,6 +1136,18 @@ video {
     padding-top: 90px;
   }
 
+  .md\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .md\:pb-\[\] {
+    padding-bottom: ;
+  }
+
+  .md\:pb-\[60px\] {
+    padding-bottom: 60px;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1299,6 +1311,10 @@ video {
 
   .lg\:pt-\[84px\] {
     padding-top: 84px;
+  }
+
+  .lg\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .lg\:text-left {
