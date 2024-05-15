@@ -998,6 +998,10 @@ video {
     z-index: 40;
   }
 
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
