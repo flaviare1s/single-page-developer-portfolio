@@ -18,3 +18,7 @@
 .image:hover .overlay {
   display: flex;
 }
+
+.linkNav img:hover {
+  filter: sepia(1) saturate(20) hue-rotate(80deg);
+}
